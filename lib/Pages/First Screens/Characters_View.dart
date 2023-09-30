@@ -32,7 +32,7 @@ class _CharactersViewState extends State<CharactersView> {
           fit: BoxFit.cover,
         ),
         title: const Text(
-          'Characters',
+          'Personajes',
         ),
         backgroundColor: const Color.fromARGB(213, 50, 197, 45),
       ),

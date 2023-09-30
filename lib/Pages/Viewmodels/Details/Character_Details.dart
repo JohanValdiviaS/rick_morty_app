@@ -14,7 +14,7 @@ class CharacterDetail extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Character Detail',
+          'Detalles del Personaje',
         ),
         flexibleSpace: Image.network(
           'https://cdn.ome.lt/4dYh0dZTn52ZvTc42mo7oQzo8U4=/570x0/smart/uploads/conteudo/fotos/pickle-capa.jpg',
@@ -61,7 +61,7 @@ class CharacterDetail extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Status: ${character.status}',
+                      'Estado: ${character.status}',
                       style: textChar,
                     ),
                   ),
@@ -72,7 +72,7 @@ class CharacterDetail extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Species: ${character.species}',
+                      'Especie: ${character.species}',
                       style: textChar,
                     ),
                   ),
@@ -83,7 +83,7 @@ class CharacterDetail extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Type: ${character.type}',
+                      'Tipo: ${character.type}',
                       style: textChar,
                     ),
                   ),
@@ -94,7 +94,7 @@ class CharacterDetail extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Gender: ${character.gender}',
+                      'Género: ${character.gender}',
                       style: textChar,
                     ),
                   ),

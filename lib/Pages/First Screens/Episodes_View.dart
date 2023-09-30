@@ -31,7 +31,7 @@ class _EpisodesViewState extends State<EpisodesView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Episodes',
+          'Episodios',
         ),
         flexibleSpace: Image.network(
           'https://img4.hulu.com/user/v3/artwork/d76d6361-3fbf-4842-8dd7-e05520557280?base_image_bucket_name=image_manager&base_image=fd92659b-534b-49d2-af0a-799184549e98&size=1200x630&format=jpeg&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7Ce98f60f9-7b4e-4306-b500-4ca22f456fde%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D',
@@ -80,7 +80,7 @@ class _EpisodesViewState extends State<EpisodesView> {
                             child: ListTile(
                               title: Text(episode.name),
                               subtitle: Text(
-                                'Episode ${episode.episode} - Air Date ${episode.airDate}',
+                                'Episodio ${episode.episode} - Estreno ${episode.airDate}',
                                 style: const TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.w500,

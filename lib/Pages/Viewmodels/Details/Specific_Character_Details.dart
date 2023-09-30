@@ -60,7 +60,7 @@ class SpecificCharacterView extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Status: ${character.status}',
+                      'Estado: ${character.status}',
                       style: textChar,
                     ),
                   ),
@@ -71,7 +71,7 @@ class SpecificCharacterView extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Species: ${character.species}',
+                      'Especie: ${character.species}',
                       style: textChar,
                     ),
                   ),
@@ -82,7 +82,7 @@ class SpecificCharacterView extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Type: ${character.type}',
+                      'Tipo: ${character.type}',
                       style: textChar,
                     ),
                   ),
@@ -93,7 +93,7 @@ class SpecificCharacterView extends StatelessWidget {
                   decoration: CharacterBox,
                   child: Center(
                     child: Text(
-                      'Gender: ${character.gender}',
+                      'Género: ${character.gender}',
                       style: textChar,
                     ),
                   ),
