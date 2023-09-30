@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:dio/dio.dart' show Dio;
+import 'package:dio/dio.dart';
 import 'package:rick_morty/Core/Entities/Character_Entity.dart';
 import 'package:rick_morty/Core/Entities/Episode_Entity.dart';
 
